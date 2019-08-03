@@ -11,21 +11,24 @@
       <a href="../about.html">About</a>|
       <a href="./contact.html">Contact</a>|
     </nav>
-    <p>Hope you enjoying the course</p>
-    <p>Look at some of these tags</p>
     <hr>
-    <p>List of tags</p>
-    <pre>
-        Paragraph p
-        Line Break br
-    </pre>
-    <hr>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <h2>This content is way daow here</h2>
-    <p>way down at the bottom</p>
-    <hr>
-    <p>Lesson &copy; 2017</p>
+    <h3> Write something for us!</h3>
+    <form class="" action="index.html" method="post">
+      <label for="name">Your Name</lable>
+      <input type="text" name="uname" id="uname" placeholder="John Doe" required><br>
+      <label for="email">Your Email</label>
+      <input type="email" name="email" id="email" placeholder="example@email.com" required><br>
+      <label for="department">Subject</label>
+      <select id="department" name="department">
+        <option value="Sales">Purchase or Return</option>
+        <option value="Marketing">Marketing</option>
+        <option value="General" checked>Others</option>
+      </select>
+      <br>
+      <label for="Message">Details</label><br>
+      <textarea name="message" id="message" style="width:400px;height:200px;"></textarea>
+      <br>
+      <input type="submit" name="submit" value="Send!">
+    </form>
   </body>
 </html>
